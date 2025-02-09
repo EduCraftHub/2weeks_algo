@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Main2{
+public class BaseballRecursive {
 
     static int answer = 0;
     static int length;
