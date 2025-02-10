@@ -1,3 +1,5 @@
+// https://www.acmicpc.net/problem/19942
+
 import java.util.Stack;
 import java.util.Scanner;
 
