@@ -1,3 +1,5 @@
+// https://www.acmicpc.net/problem/14501
+
 import java.util.Scanner;
 
 public class Quit {
