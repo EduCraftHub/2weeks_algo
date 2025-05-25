@@ -44,7 +44,6 @@ public class Main {
 
     // 전위 순회
     private static void recursivePre(char c) {
-
         if (c != '.') {
             sb.append(c);
 
@@ -55,8 +54,6 @@ public class Main {
 
     // 중위 순회
     private static void recursiveIn(char c) {
-        if(graph[c] == null) return;
-
         if (c != '.') {
             recursiveIn(graph[c].get(0));
 
@@ -68,7 +65,6 @@ public class Main {
 
     // 후위 순회
     private static void recursivePost(char c) {
-
         if (c != '.') {
             recursivePost(graph[c].get(0));
             recursivePost(graph[c].get(1));
